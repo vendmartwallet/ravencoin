@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero {
+  background-image: url("./assets/gplaypattern.png");
+  background-repeat: repeat;
+  background-size: 150px 150px; /* Adjust the size as needed */
+  animation: moveBackground 40s linear infinite;
+}
+
+@keyframes moveBackground {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100% 0;
+  }
+}
