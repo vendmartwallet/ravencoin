@@ -4,8 +4,8 @@ import { FaPlayCircle } from "react-icons/fa";
 const Hero = () => {
   return (
     <>
-      <div className="hero py-24 flex flex-col px-6 items-center gap-16">
-        <div className=" text-2xl text-center lg:w-[48%]">
+      <div className="hero py-28 flex flex-col px-6 items-center gap-16">
+        <div className=" text-3xl text-center lg:w-[48%]">
           Ravencoin is a peer-to-peer blockchain, handling the efficient
           creation and transfer of assets from one party to another.
         </div>

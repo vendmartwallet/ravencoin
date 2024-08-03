@@ -4,7 +4,7 @@ import Share from "../../assets/gold.svg";
 const Welcome = () => {
   return (
     <>
-      <div className="welcome flex flex-col items-center py-20 px-5  gap-8 bg-[#2E3E80]">
+      <div className="welcome flex flex-col items-center py-24 px-5  gap-8 bg-[#2E3E80]">
         <div className=" text-2xl lg:text-4xl font-semibold text-white">
           Welcome to Ravencoin
         </div>
