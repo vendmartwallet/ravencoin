@@ -1,13 +1,13 @@
 import React from "react";
-import Logo from "../assets/ravelogo.png";
+import Logo from "../../assets/ravelogo.png";
 import { IoMenuSharp } from "react-icons/io5";
 
 const Navbar = () => {
   return (
     <>
-      <div className="navbar">
+      <div className="navbar sticky top-0 z-50">
         <div className="navOrange bg-[#F15B21] h-8"></div>
-        <div className="nav flex justify-between items-center px-6 lg:px-32 py-3 border-b">
+        <div className="nav flex bg-white justify-between items-center px-6 lg:px-32 py-3 border-b">
           <div className="logo w-[60%] md:w-[35%] lg:w-[18%]">
             <img src={Logo} alt="" />
           </div>
