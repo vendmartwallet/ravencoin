@@ -5,6 +5,7 @@ import Welcome from '../../components/welcome/Welcome'
 import WhatSection from '../../components/whatsection/WhatSection'
 import Community from '../../components/community/Community'
 import Exchanges from '../../components/exchanges/Exchanges'
+import Footer from '../../components/footer/Footer'
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
     <WhatSection />
     <Community />
     <Exchanges />
+    <Footer />
    </div>
    </>
   )

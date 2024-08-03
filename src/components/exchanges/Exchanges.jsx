@@ -278,8 +278,6 @@ const Exchanges = () => {
             See All Exchanges
           </button>
         </div>
-
-        
       </div>
     </>
   );
