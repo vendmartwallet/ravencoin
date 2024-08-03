@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .hero {
   background-image: url("./assets/gplaypattern.png");
   background-repeat: repeat;
@@ -16,4 +23,11 @@
   100% {
     background-position: 100% 0;
   }
+}
+
+.secimg {
+  background-image: url("./assets/bird.png");
+  background-repeat: no-repeat;
+  background-size: 450px 450px;
+  background-position: right;
 }

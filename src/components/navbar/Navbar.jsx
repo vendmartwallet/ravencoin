@@ -2,7 +2,10 @@ import React from "react";
 import Logo from "../../assets/ravelogo.png";
 import { IoMenuSharp } from "react-icons/io5";
 
+
 const Navbar = () => {
+  
+
   return (
     <>
       <div className="navbar sticky top-0 z-50">
