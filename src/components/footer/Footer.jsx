@@ -11,7 +11,7 @@ const Footer = () => {
           </div>
           <div className="grid grid-cols-1 gap-8 lg:flex lg:gap-24">
             <div>
-              <h5 className="font-semibold mb-4">NAVIGATION</h5>
+              <h5 className="font-semibold mb-4 text-[#F15B21]">NAVIGATION</h5>
               <ul>
                 <li className="mb-2">
                   <a href="#" className="hover:text-gray-400">
@@ -41,7 +41,7 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <h5 className="font-semibold mb-4">DEVELOPERS</h5>
+              <h5 className="font-semibold mb-4 text-[#F15B21] ">DEVELOPERS</h5>
               <ul>
                 <li className="mb-2">
                   <a href="#" className="hover:text-gray-400">
@@ -86,7 +86,7 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <h5 className="font-semibold mb-4">COMMUNITY</h5>
+              <h5 className="font-semibold mb-4 text-[#F15B21] ">COMMUNITY</h5>
               <ul>
                 <li className="mb-2">
                   <a href="#" className="hover:text-gray-400">
