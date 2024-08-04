@@ -2,11 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .hero {
@@ -30,4 +30,34 @@
   background-repeat: no-repeat;
   background-size: 450px 450px;
   background-position: right;
+}
+
+.whitepaper {
+  background-image: url("./assets/paper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  background-color: #272e4a;
+  /* backface-visibility:hidden; */
+  background-blend-mode: overlay;
+}
+
+.communityRes{
+  background-image: url("./assets/communitybanner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  background-color: #272e4a;
+  /* backface-visibility:hidden; */
+  background-blend-mode: overlay;
+}
+
+.buyguide{
+  background-image: url("./assets/exchangebanner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  background-color: #272e4a;
+  /* backface-visibility:hidden; */
+  background-blend-mode: overlay;
 }
